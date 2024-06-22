@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0458C982ABD927D00EA4A37 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0458C972ABD927D00EA4A37 /* MovieViewModel.swift */; };
+		B094CD422ABDC5D800678057 /* ImageDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094CD412ABDC5D800678057 /* ImageDownloaderClient.swift */; };
+		B094CD442ABDD67300678057 /* SpecialImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094CD432ABDD67300678057 /* SpecialImage.swift */; };
+		B094CD462ABDE0B400678057 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094CD452ABDE0B400678057 /* MovieDetail.swift */; };
+		B094CD482ABDECFB00678057 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094CD472ABDECFB00678057 /* MovieDetailViewModel.swift */; };
+		B094CD4A2ABDEF7100678057 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094CD492ABDEF7100678057 /* DetailView.swift */; };
+		B0A57A992ABCD9E000222E82 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A57A982ABCD9E000222E82 /* Movie.swift */; };
+		B0A57A9C2ABCE09600222E82 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A57A9B2ABCE09600222E82 /* DownloaderClient.swift */; };
 		B0CEC3B32ABCD5C700858475 /* MovieBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CEC3B22ABCD5C700858475 /* MovieBookApp.swift */; };
-		B0CEC3B52ABCD5C700858475 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CEC3B42ABCD5C700858475 /* ContentView.swift */; };
+		B0CEC3B52ABCD5C700858475 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CEC3B42ABCD5C700858475 /* MovieListView.swift */; };
 		B0CEC3B72ABCD5C800858475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CEC3B62ABCD5C800858475 /* Assets.xcassets */; };
 		B0CEC3BA2ABCD5C800858475 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CEC3B92ABCD5C800858475 /* Preview Assets.xcassets */; };
+		B0E85DA32BEB8D3000B772BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E85DA22BEB8D3000B772BE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0458C972ABD927D00EA4A37 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		B094CD412ABDC5D800678057 /* ImageDownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderClient.swift; sourceTree = "<group>"; };
+		B094CD432ABDD67300678057 /* SpecialImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialImage.swift; sourceTree = "<group>"; };
+		B094CD452ABDE0B400678057 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		B094CD472ABDECFB00678057 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		B094CD492ABDEF7100678057 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B0A57A982ABCD9E000222E82 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B0A57A9B2ABCE09600222E82 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
 		B0CEC3AF2ABCD5C700858475 /* MovieBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CEC3B22ABCD5C700858475 /* MovieBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookApp.swift; sourceTree = "<group>"; };
-		B0CEC3B42ABCD5C700858475 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0CEC3B42ABCD5C700858475 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		B0CEC3B62ABCD5C800858475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CEC3B92ABCD5C800858475 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0E85DA22BEB8D3000B772BE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0A57A9A2ABCE03300222E82 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B0A57A9B2ABCE09600222E82 /* DownloaderClient.swift */,
+				B094CD412ABDC5D800678057 /* ImageDownloaderClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		B0CEC3A62ABCD5C700858475 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +78,11 @@
 		B0CEC3B12ABCD5C700858475 /* MovieBook */ = {
 			isa = PBXGroup;
 			children = (
-				B0CEC3B22ABCD5C700858475 /* MovieBookApp.swift */,
-				B0CEC3B42ABCD5C700858475 /* ContentView.swift */,
+				B0A57A9A2ABCE03300222E82 /* Service */,
+				B0CEC3C32ABCD64100858475 /* App */,
+				B0CEC3C22ABCD62D00858475 /* View */,
+				B0CEC3C12ABCD62500858475 /* ViewModel */,
+				B0CEC3C02ABCD61600858475 /* Model */,
 				B0CEC3B62ABCD5C800858475 /* Assets.xcassets */,
 				B0CEC3B82ABCD5C800858475 /* Preview Content */,
 			);
@@ -65,6 +95,44 @@
 				B0CEC3B92ABCD5C800858475 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0CEC3C02ABCD61600858475 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0A57A982ABCD9E000222E82 /* Movie.swift */,
+				B094CD452ABDE0B400678057 /* MovieDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0CEC3C12ABCD62500858475 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0458C972ABD927D00EA4A37 /* MovieViewModel.swift */,
+				B094CD472ABDECFB00678057 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0CEC3C22ABCD62D00858475 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0CEC3B42ABCD5C700858475 /* MovieListView.swift */,
+				B094CD432ABDD67300678057 /* SpecialImage.swift */,
+				B094CD492ABDEF7100678057 /* DetailView.swift */,
+				B0E85DA22BEB8D3000B772BE /* LoginView.swift */,
+			);
+			name = View;
+			path = "vİEW";
+			sourceTree = "<group>";
+		};
+		B0CEC3C32ABCD64100858475 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0CEC3B22ABCD5C700858475 /* MovieBookApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CEC3B52ABCD5C700858475 /* ContentView.swift in Sources */,
+				B0CEC3B52ABCD5C700858475 /* MovieListView.swift in Sources */,
+				B0458C982ABD927D00EA4A37 /* MovieViewModel.swift in Sources */,
+				B094CD442ABDD67300678057 /* SpecialImage.swift in Sources */,
+				B094CD4A2ABDEF7100678057 /* DetailView.swift in Sources */,
 				B0CEC3B32ABCD5C700858475 /* MovieBookApp.swift in Sources */,
+				B0A57A992ABCD9E000222E82 /* Movie.swift in Sources */,
+				B0A57A9C2ABCE09600222E82 /* DownloaderClient.swift in Sources */,
+				B094CD422ABDC5D800678057 /* ImageDownloaderClient.swift in Sources */,
+				B0E85DA32BEB8D3000B772BE /* LoginView.swift in Sources */,
+				B094CD462ABDE0B400678057 /* MovieDetail.swift in Sources */,
+				B094CD482ABDECFB00678057 /* MovieDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
